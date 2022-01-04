@@ -1,0 +1,104 @@
+body{
+    background-image:linear-gradient(to right, #2F2325, #8E5D52);
+    color: #fff;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    font-family: 'Sarala', sans-serif;
+    padding-bottom: 3px;
+    border-bottom: 0.4px solid #FFF2E7;
+}
+
+.menu{
+    display: flex;
+    margin: auto;
+    font-size: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff2e7;
+    margin-right: 12px;
+}
+
+.containertop{
+    display: flex;
+    margin-left: 250px;
+    margin-right: 250px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.itemdois img{
+    max-width: 250px;
+}
+
+h1{
+    font-family: 'Righteous', cursive;
+    font-style: normal;
+    color: #FFF2E7;
+}
+
+.faq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faq p{
+    margin: 13px;
+    font-size: 10px;
+}
+
+p{
+    color: #ecd6c4;
+    font-family: 'Sarala', sans-serif;
+}
+
+
+
+h4{
+    font-family: 'Righteous', cursive;
+    font-style: normal;
+    font-size: 15px;
+    color: #FFF2E7;
+    padding-top: 70px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: #ECD6C4 ;
+    border-radius: 12px;
+    font-size: 14px;
+    color: #2f2325;
+    font-family: 'Sarala', sans-serif;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 0.4px solid #FFF2E7;
+    margin-top: 40px;
+}
+
+footer img{
+    padding-top: 30px;
+    max-width: 200px;
+}
+
+a:hover{
+    color: #caa198;
+}
+
+button:hover{
+    background-color: #8E5D52;
+    color: #ECD6C4;
+    cursor: pointer;
+}
